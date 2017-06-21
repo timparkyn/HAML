@@ -36,7 +36,8 @@ Some code examples
 ```
 
 Converts to:
-  <head>
+
+  ```<head>
     <title>r-Blog</title>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
     <link href="/stylesheets/main.css" media="screen" rel="Stylesheet" type="text/css" />
