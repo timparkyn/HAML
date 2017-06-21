@@ -65,5 +65,4 @@ Converts to:
       </div>
 ```
 
-Other cool things:
-```!!!``` renders to: ```<!DOCTYPE html>```
+
