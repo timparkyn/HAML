@@ -10,22 +10,23 @@ Benefits of HAML
 * Cleanly rendered HTML, with proper indentation
 * easier to read?
 
-View pages can be quickly changed HAML by changing the extention from .erb to .haml
-
 
 Criticisms of HAML
 * harder to read?
 * pages can break if indentation and tabbing not followed consistently
 
+View pages can be quickly changed HAML by changing the extention from .erb to .haml
 
-A % in front of the initial of the element works in most cases
->> %p: paragraph, %s: span, %d: div, etc.  
-Though divs are most often assumed if no tag is selected
-    ```content Hello, World!``` gives you: ```<div class='content'>Hello, World!</div>```
 HAML assumes you are representing a tag, unless a class or id is specified.
 Classes and IDs are referenced by . and #
 
+A % in front of the initial of the element works in most cases
+Examples: %p: paragraph, %s: span, %h2, %a, etc.  
 
+Though divs are most often assumed if no tag is selected
+```content Hello, World!``` gives you: 
+```<div class='content'>Hello, World!</div>```
+     
 Some code examples
 ```  
 %head
