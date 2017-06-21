@@ -17,6 +17,15 @@ Criticisms of HAML
 * harder to read?
 * pages can break if indentation and tabbing not followed consistently
 
+
+A % in front of the initial of the element works in most cases
+>> %p: paragraph, %s: span, %d: div, etc.  
+Though divs are most often assumed if no tag is selected
+    ```content Hello, World!``` gives you: ```<div class='content'>Hello, World!</div>```
+HAML assumes you are representing a tag, unless a class or id is specified.
+Classes and IDs are referenced by . and #
+
+
 Some code examples
 ```  
 %head
@@ -55,3 +64,6 @@ Converts to:
         <p class='date'>Monday, June 19th, 2017</p>    
       </div>
 ```
+
+Other cool things:
+```!!!``` renders to: ```<!DOCTYPE html>```
