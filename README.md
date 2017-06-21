@@ -20,14 +20,13 @@ View pages can be quickly changed HAML by changing the extention from .erb to .h
 HAML assumes you are representing a tag, unless a class or id is specified.
 Classes and IDs are referenced by . and #
 
-A % in front of the initial of the element works in most cases
+A % in front of the initial of the element works in most cases<br>
 Examples: %p: paragraph, %s: span, %h2, %a, etc.  
 
-Though divs are most often assumed if no tag is selected
-```content Hello, World!``` gives you: 
-```<div class='content'>Hello, World!</div>```
+Though divs are most often assumed if no tag is selected<br>
+```content Hello, World!``` gives you: ```<div class='content'>Hello, World!</div>```
      
-Some code examples
+Code Example:
 ```  
 %head
     %title r-Blog
