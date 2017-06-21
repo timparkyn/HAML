@@ -24,7 +24,7 @@ A % in front of the initial of the element works in most cases<br>
 Examples: %p: paragraph, %s: span, %h2, %a, etc.  
 
 Though divs are most often assumed if no tag is selected<br>
-```content Hello, World!``` gives you: ```<div class='content'>Hello, World!</div>```
+```.content Hello, World!``` gives you: ```<div class='content'>Hello, World!</div>```
      
 Code Example:
 ```  
